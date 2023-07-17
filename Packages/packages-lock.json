@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.dbrizov.naughtyattributes": {
+      "version": "2.1.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.h8man.2d.navmeshplus": {
+      "version": "https://github.com/h8man/NavMeshPlus.git#master",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "05f749d55b624e0c2e46ddc256e309a20cc103ec"
+    },
     "com.unity.2d.animation": {
       "version": "9.0.3",
       "depth": 1,
@@ -204,6 +218,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.2",
       "depth": 1,
@@ -316,6 +337,15 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "jp.ayutaz.simplefoldericon": {
+      "version": "1.3.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

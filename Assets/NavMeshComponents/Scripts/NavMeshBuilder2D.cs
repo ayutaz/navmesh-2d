@@ -62,6 +62,7 @@ public class NavMeshBuilder2D : MonoBehaviour
             return;
 
         buildOperation = null;
+        Debug.Log("bake");
 
         var totalBounds = new Bounds();
         NavMeshSourceTag2D.Collect(ref buildSources, ref totalBounds);
@@ -83,6 +84,7 @@ public class NavMeshBuilder2D : MonoBehaviour
                 NavMeshBuilder.UpdateNavMeshData(data, buildSettings, buildSources, buildBounds);
             }
         }
+        Debug.Log($"bake data:{data}");
 
         dataInstance.Remove();
         dataInstance = NavMesh.AddNavMeshData(data);
